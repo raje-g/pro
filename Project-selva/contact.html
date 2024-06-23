@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!--Image Source: https://source.unsplash.com/200x200/?airbnb?1-->
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Product.html">PRODUCT</a></li>
+                    <li><a href="service.html">SERVICE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1> 
+    </section>
+
+<!----------- contact us  -------------->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7800.780309381096!2d79.6000486405083!3d12.153819402365517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a53467e42dedceb%3A0x806e495c30975acb!2sKutteripattu%2C%20Tamil%20Nadu%20604302!5e0!3m2!1sen!2sin!4v1718694386601!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>Phone:</h5>
+                    <p>+91 72006 34255 </p>
+                    <p>Mon to sat,10am to 6pm</p>
+                </span>
+            </div>
+           
+            <div>
+                <i class="fa fa-envelop-o"></i>
+                <span>
+                    <h5>mail </h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Address: </h5>
+                    <p>Rettanai Road,<br>Kutteripattu,<br>Tamilnadu.<h5>Pin</h5><p>604-306.</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>location: </h5>
+                    <p>Kutteripattu__NH45🚦</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Get in Touch</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="1979c4b5-51a7-40a2-bed4-cb946f3cffb1">
+                <input type="text" name="name" placeholder="Enter Your Name"class="contact-inputs" required>
+                <input type="number" name="number" placeholder="Enter Your Number" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Enter Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Submit <img src="assets/arrow_icon.png"></button>
+            </form>
+    </div>
+</section>
+
+
+<!------------------ footer ----------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are a phone repair service business specializing in repairing all phones and tablets. We have been in business for many years, and we have a great reputation for quality work.<br> We offer free estimates on all repairs, so there is no obligation to pay anything unless you choose to have us repair your device.<br> For inquiries or appointments, please reach out to us:</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>      
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-twiter"></i>  
+    </div>
+    <p>© 2024 Selva Mobile Service Shop  <i class="fa fa-heart"></i>. All rights reserved.</p>
+</section>
